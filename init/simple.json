@@ -7,6 +7,18 @@
   },
   "catalog": [
     {
+      "ionAssetId": 470808,
+      "ionAccessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJhMDRjYzJmMC03MzQ0LTQxNzctYThkMC1mZjQ5YmY3MjBlMmYiLCJpZCI6NDQwNzUsImlhdCI6MTYxMzU4NTg4NH0.oMvmiZKAKIST-RaiTn_59hSW7ebrOGJCK209s9Swzws",
+      "name": "2021 04 23 SH22 REV3_simplified_3d_mesh2",
+      "type": "3d-tiles"
+    },
+    {
+      "ionAssetId": 469669,
+      "ionAccessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJhMDRjYzJmMC03MzQ0LTQxNzctYThkMC1mZjQ5YmY3MjBlMmYiLCJpZCI6NDQwNzUsImlhdCI6MTYxMzU4NTg4NH0.oMvmiZKAKIST-RaiTn_59hSW7ebrOGJCK209s9Swzws",
+      "name": "2021 04 23 SH22 meshB",
+      "type": "3d-tiles"
+    },
+    {
       "id": "ZIdekvc10z",
       "type": "wms-group",
       "name": "Test",
@@ -194,7 +206,9 @@
           "activeStyle": "Current % of Max Cap",
           "defaultColumn": {
             "replaceWithZeroValues": [],
-            "replaceWithNullValues": ["-"]
+            "replaceWithNullValues": [
+              "-"
+            ]
           },
           "defaultStyle": {
             "time": {
@@ -282,7 +296,10 @@
               "activeStyle": "Socio-economic_Disadvantage",
               "defaultStyle": {
                 "color": {
-                  "binColors": ["rgba(0,0,0,1.00)", "rgba(0,200,0,1.0)"],
+                  "binColors": [
+                    "rgba(0,0,0,1.00)",
+                    "rgba(0,200,0,1.0)"
+                  ],
                   "numberOfBins": 2
                 }
               },
@@ -352,7 +369,10 @@
               "activeStyle": "Mask",
               "defaultStyle": {
                 "color": {
-                  "binColors": ["rgba(0,0,0,0.0)", "rgba(0,0,0,1.0)"],
+                  "binColors": [
+                    "rgba(0,0,0,0.0)",
+                    "rgba(0,0,0,1.0)"
+                  ],
                   "numberOfBins": 2
                 }
               },
@@ -479,12 +499,21 @@
             },
             {
               "position": {
-                "cartographicDegrees": [133.0, -25.0, 0.0]
+                "cartographicDegrees": [
+                  133.0,
+                  -25.0,
+                  0.0
+                ]
               },
               "point": {
                 "pixelSize": 5,
                 "color": {
-                  "rgba": [255, 0, 0, 255]
+                  "rgba": [
+                    255,
+                    0,
+                    0,
+                    255
+                  ]
                 }
               }
             }
@@ -530,7 +559,10 @@
                 },
                 "geometry": {
                   "type": "Point",
-                  "coordinates": [146.469, -40.83]
+                  "coordinates": [
+                    146.469,
+                    -40.83
+                  ]
                 }
               }
             ]
@@ -543,7 +575,12 @@
       "type": "esri-mapServer",
       "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
       "name": "Surface Geology",
-      "rectangle": { "west": 106, "south": -52, "east": 172, "north": -8 },
+      "rectangle": {
+        "west": 106,
+        "south": -52,
+        "east": 172,
+        "north": -8
+      },
       "info": [
         {
           "name": "Licence",
